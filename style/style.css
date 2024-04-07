@@ -1,0 +1,26 @@
+body {
+  background-color: #e7eff1;
+  font-family: "DM Sans", sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 69px;
+}
+hr {
+  color: #80a3a2;
+  max-width: 50%;
+}
+.content {
+  background-color: #b7d2d6;
+  border-radius: 7px;
+  margin: 30px auto;
+  max-width: 750px;
+  padding: 20px;
+  text-align: center;
+}
+.page-links {
+  display: flex;
+  justify-content: center;
+}
