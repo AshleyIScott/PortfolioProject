@@ -1,3 +1,7 @@
+:root {
+  --main-branding-colour: #0e2e3b;
+}
+
 body {
   background-color: #e7eff1;
   font-family: "DM Sans", sans-serif;
@@ -5,13 +9,28 @@ body {
 }
 
 h1 {
+  border-bottom: 0.5px solid #80a3a2;
+  color: var(--main-branding-colour);
   font-weight: 400;
   font-size: 69px;
+  padding-bottom: 10px;
 }
-hr {
-  color: #80a3a2;
-  max-width: 50%;
+
+h2 {
+  color: var(--main-branding-colour);
+  font-size: 18px;
+  opacity: 0.7;
 }
+
+a {
+  color: var(--main-branding-colour);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 .content {
   background-color: #b7d2d6;
   border-radius: 7px;
@@ -20,7 +39,16 @@ hr {
   padding: 20px;
   text-align: center;
 }
-.page-links {
+
+.nav-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.page-links {
+  background-color: #8fb8b6;
+  border: 0.5px solid var(--main-branding-colour);
+  border-radius: 50px;
+  padding: 15px 20px;
+  text-decoration: none;
 }
