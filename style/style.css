@@ -52,6 +52,7 @@ img {
 .container {
   margin-bottom: 35px;
 }
+
 .app-name {
   font-size: 25px;
   font-weight: 600;
@@ -85,6 +86,9 @@ footer {
   .app-name,
   .app-info {
     text-align: center;
+  }
+  .app-info {
+    margin-bottom: 17px;
   }
   .btn-app {
     display: block;
