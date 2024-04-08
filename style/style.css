@@ -70,6 +70,11 @@ img {
   color: var(--main-branding-colour);
 }
 
+.btn:hover {
+  border: 0.5px solid var(--main-branding-colour);
+  color: var(--main-branding-colour);
+}
+
 footer {
   border-top: 0.1px solid var(--main-border-colour);
   display: flex;
