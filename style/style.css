@@ -40,7 +40,8 @@ img {
   max-width: 100%;
   border-radius: 7px;
 }
-.content {
+.content,
+.about-content {
   background-color: #d9eaee;
   border-radius: 7px;
   margin: 30px auto;
@@ -59,12 +60,14 @@ img {
   text-align: start;
 }
 
-.app-info {
+.app-info,
+.about-info {
   text-align: start;
   font-size: 17px;
 }
 
-.btn-app {
+.btn-app,
+.btn-resume {
   background-color: #9cc6c5;
   border: 0.5px solid var(--main-branding-colour);
   color: var(--main-branding-colour);
@@ -89,8 +92,12 @@ footer {
     font-size: 43px;
   }
   .app-name,
-  .app-info {
+  .app-info,
+  .about-info {
     text-align: center;
+  }
+  .about-info {
+    margin-top: 0px;
   }
   .app-info {
     margin-bottom: 17px;
@@ -98,5 +105,12 @@ footer {
   .btn-app {
     display: block;
     margin: 0 auto;
+  }
+
+  .btn-resume {
+    margin-bottom: 30px;
+  }
+  .headshot {
+    max-width: 65%;
   }
 }
