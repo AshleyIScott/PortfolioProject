@@ -42,14 +42,12 @@ img {
   max-width: 100%;
   border-radius: 7px;
 }
-
 .duck-image {
   max-width: 90%;
 }
 .work-heading {
   font-size: 60px;
 }
-
 .content,
 .about-content {
   background-color: #d9eaee;
