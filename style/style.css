@@ -23,9 +23,11 @@ h2 {
   opacity: 0.7;
 }
 
-p {
+p,
+h3 {
   color: var(--main-branding-colour);
 }
+
 a {
   color: var(--main-branding-colour);
   text-decoration: none;
@@ -40,6 +42,14 @@ img {
   max-width: 100%;
   border-radius: 7px;
 }
+
+.duck-image {
+  max-width: 90%;
+}
+.work-heading {
+  font-size: 60px;
+}
+
 .content,
 .about-content {
   background-color: #d9eaee;
@@ -88,7 +98,8 @@ footer {
 }
 
 @media (max-width: 767px) {
-  h1 {
+  h1,
+  .work-heading {
     font-size: 43px;
   }
   .app-name,
@@ -112,5 +123,8 @@ footer {
   }
   .headshot {
     max-width: 65%;
+  }
+  .duck-image {
+    max-width: 100%;
   }
 }
