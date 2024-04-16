@@ -18,7 +18,8 @@ body {
   text-align: center;
 }
 
-.container {
+.container,
+.work-container {
   margin-bottom: 35px;
 }
 
@@ -126,6 +127,9 @@ footer {
   .work-heading {
     font-size: 43px;
   }
+  .greetings {
+    font-size: 18px;
+  }
   .app-name,
   .app-info,
   .about-info {
@@ -148,6 +152,10 @@ footer {
   .headshot {
     max-width: 65%;
   }
+  .work-container .btn-app {
+    margin-bottom: 22px;
+  }
+
   .contact-page-footer {
     font-size: 12px;
   }
