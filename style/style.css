@@ -1,6 +1,7 @@
 :root {
   --main-branding-colour: #0e2e3b;
   --main-border-colour: rgba(98, 110, 115, 0.1);
+  --main-links-colour: #166678;
 }
 
 body {
@@ -21,6 +22,14 @@ body {
 .container,
 .work-container {
   margin-bottom: 35px;
+}
+
+.navbar-brand {
+  color: var(--main-branding-colour);
+  font-weight: 600;
+}
+.nav-link {
+  color: var(--main-links-colour);
 }
 
 h1 {
@@ -51,12 +60,13 @@ h6 {
 }
 
 a {
-  color: var(--main-branding-colour);
+  color: var(--main-links-colour);
   text-decoration: none;
 }
 
 a:hover {
   cursor: pointer;
+  color: var(--main-branding-colour);
 }
 
 img {
@@ -94,11 +104,16 @@ img {
 .btn:hover {
   border: 0.5px solid var(--main-branding-colour);
   color: var(--main-branding-colour);
+  transition: all 150ms ease-in-out;
 }
 
 .contact-links a {
-  color: #166678;
+  color: var(--main-links-colour);
   font-weight: 600;
+}
+
+.contact-links a:hover {
+  color: var(--main-branding-colour);
 }
 
 footer {
@@ -122,6 +137,11 @@ footer {
   color: brown;
   font-weight: 600;
 }
+
+.contact-page-footer a:hover {
+  color: var(--main-links-colour);
+}
+
 @media (max-width: 767px) {
   h1,
   .work-heading {
