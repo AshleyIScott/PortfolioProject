@@ -119,17 +119,15 @@ img {
 footer {
   border-top: 0.1px solid var(--main-border-colour);
   display: flex;
-  font-size: 16px;
+  font-size: 25px;
   justify-content: space-around;
   opacity: 0.7;
   padding: 15px;
 }
 
-.contact-page-footer footer {
-  border-top: 0.1px solid var(--main-border-colour);
+.contact-page-footer {
   display: inline;
   font-size: 16px;
-  opacity: 0.7;
   text-align: center;
 }
 
