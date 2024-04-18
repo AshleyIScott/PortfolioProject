@@ -10,7 +10,8 @@ body {
   font-weight: normal;
 }
 
-.content {
+.content,
+.hompage-contactbox {
   background-color: #d9eaee;
   border-radius: 7px;
   margin: 100px auto;
@@ -47,7 +48,8 @@ h2 {
 }
 
 p,
-h3 {
+h3,
+h4 {
   color: var(--main-branding-colour);
 }
 
@@ -82,6 +84,15 @@ img {
   font-size: 60px;
 }
 
+.hompage-contactbox {
+  text-align: start;
+  padding-left: 45px;
+}
+.homepage-info h4,
+p {
+  margin-bottom: 0px;
+}
+
 .app-name {
   font-size: 25px;
   font-weight: 600;
@@ -95,6 +106,7 @@ img {
 }
 
 .btn-app,
+.btn-contact,
 .btn-resume {
   background-color: #9cc6c5;
   border: 0.5px solid var(--main-branding-colour);
@@ -173,8 +185,10 @@ footer {
   .work-container .btn-app {
     margin-bottom: 22px;
   }
-
   .contact-page-footer {
     font-size: 12px;
+  }
+  .hompage-contactbox h4 {
+    font-size: 15px;
   }
 }
